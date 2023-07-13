@@ -1876,6 +1876,18 @@ pre code {
   border-color: #b1a9d1;
 }
 
+.about-links{
+  text-align: left;
+}
+
+@media only screen and (max-width: 770px) {
+  .about-links {
+    text-align: center
+  }
+}
+
+
+
 .table-hover .table-primary:hover {
   background-color: #c6c0dd;
 }
